@@ -1,18 +1,10 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
+var PropTypes = require('prop-types');
 require('./index.sass');
-
-class App extends React.Component {
-   render() {
-      return (
-         <div>
-            Hello React!
-         </div>
-      )
-   }
-}
+var App = require('./components/App');
 
 ReactDOM.render(
-   <App />,
+   <App/>,
    document.getElementById('app')
 );
