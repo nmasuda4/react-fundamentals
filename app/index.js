@@ -49,7 +49,7 @@ class App extends React.Component {
   //    .then(data => this.setState({ results2: data.pokemon}))
   // }
 
-
+//comment
   // fetchData () {
   //    const api = `https://jsonplaceholder.typicode.com/users`
   //    fetch(api)
